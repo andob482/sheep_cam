@@ -1,0 +1,47 @@
+.booth {
+    width:auto;
+    background:#ccc;
+    border:100px solid #ddd;
+    margin:0 auto; 
+}
+
+.header {
+    padding: 100Spx;
+    text-align: center; 
+    background: #cc0000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.menu_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: #333;
+}
+
+.block {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.list_element {
+  float: left;
+}
+
+  .active {
+   background-color: #4CAF50;
+   color: white;
+}
+
+.block:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+
