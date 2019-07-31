@@ -7,7 +7,7 @@
 <body>
 
     <?php
-   chdir('C:/xampp/htdocs/apache_project');
+   chdir('var/www/html');
     if (isset($_POST['call'])){
     shell_exec('./test.sh');
     echo "Du klarade det";
