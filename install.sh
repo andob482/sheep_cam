@@ -2,7 +2,7 @@
 
 cp index.html -f /var/www/html
 
-cp index2.php -f /var/www/html
+cp index2.html -f /var/www/html
 
 cp test.sh -f /var/www/html
 
